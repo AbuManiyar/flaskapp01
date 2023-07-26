@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+    <title>Entries</title>
+</head>
+<body>
+    <div>
+        <p>Employee Details</p>
+    </div>
+    <div>
+        <form action="/entries" method="post">
+            <div class="row">
+              <div class="col">
+                <input type="text" name="Name" class="form-control" placeholder="First name" required>
+              </div>
+              <div class="col">
+                <input type="text" name="Phone"class="form-control" placeholder="Mobile Number" required>
+              </div>
+              <div class="col">
+                <input type="text" name="Position" class="form-control" placeholder="Position">
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+    </div>
+    <div>
+        <form action="display">
+        <button type="display" class="btn btn-primary">Display All</button>
+        </form>
+    </div>
+
+</body>
+</html>
